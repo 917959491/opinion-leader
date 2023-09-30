@@ -7,21 +7,15 @@ Run the code
 
 #### Train ToupleGDD model
 
-	python main.py --graph train_data \
-                     --model Tripling \
-                     --budget 5 \
-                     --epoch 20000 \
-                     --lr 0.001 \
-                     --bs 16 \
-                     --n_step 1
+python main.py --graph train_data --model Tripling --budget 5 --epoch 20000 --lr 0.001 --bs 16 --n_step 1
 
 #### Test ToupleGDD model
 
-	python main.py --graph test_data/Wiki-2.txt \
-                     --model Tripling \
-                     --model_file tripling.ckpt \
-                     --budget 10 \
-                     --test
+python main.py --graph test_data/Wiki-2.txt --model Tripling --model_file tripling.ckpt \
+--budget 10 --test
+
+python main.py --graph test_data/graph2.txt --model Tripling --model_file tripling.ckpt \
+--budget 10 --test
 
 #### Train S2V-DQN model
 
