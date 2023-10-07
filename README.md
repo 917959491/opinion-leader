@@ -1,6 +1,6 @@
-# ToupleGDD
+# ToupleGDD11
 
-Implementation of "ToupleGDD: A Fine-Designed Solution of Influence Maximization by Deep Reinforcement Learning" (https://arxiv.org/abs/2210.07500)
+在ToupleGDD基础上进行修改的的意见领袖模型
 
 Run the code
 ------------
